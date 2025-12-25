@@ -1,9 +1,9 @@
 #include<stdio.h>
-int amin(){
+int main(){
 
     int a;
      printf("enter any numbner");
-     scanf("%d",a);
+     scanf("%d",&a);
 
      if(a%2==0){
         printf("number is even %d" ,a);
