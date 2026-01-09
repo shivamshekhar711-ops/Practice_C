@@ -9,7 +9,7 @@ int main(){
 
         fact=fact*i;
     }
-    printf("factorial of %d : %d" ,n,fact);
+    printf("factorial of %d " ,fact);
 
     return 0;
 }

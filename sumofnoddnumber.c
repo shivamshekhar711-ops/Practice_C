@@ -1,18 +1,17 @@
 #include<stdio.h>
-int main (){
+int main(){
 
     int i,n,sum=0;
 
-    printf("Enter a no");
+    printf("entre a number ");
     scanf("%d" ,&n);
 
     for(i=1; i<=n; i++){
-
-        sum=sum+i*2;
+        sum=sum+i*2-1;
     }
 printf("%d" ,sum);
 
 return 0;
 
-
 }
+
